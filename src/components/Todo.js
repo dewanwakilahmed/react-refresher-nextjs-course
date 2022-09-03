@@ -1,9 +1,9 @@
 import React from "react";
 
-const Todo = () => {
+const Todo = (props) => {
   return (
     <div className="card">
-      <h2>Learn React</h2>
+      <h2>{props.text}</h2>
       <div className="actions">
         <button className="btn">DELETE</button>
       </div>
